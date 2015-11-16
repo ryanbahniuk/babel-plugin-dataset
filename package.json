@@ -1,0 +1,40 @@
+{
+  "name": "babel-plugin-dataset",
+  "version": "0.0.1",
+  "description": "A Babel plugin to convert dataset to a more browser compatible implementation",
+  "homepage": "https://github.com/ryanbahniuk/babel-plugin-dataset",
+  "keywords": [
+    "babel",
+    "babel plugin",
+    "dataset",
+    "getAttribute"
+  ],
+  "author": {
+    "name": "Ryan Bahniuk",
+    "email": "ryan.bahniuk@gmail.com",
+    "url": "http://bahni.uk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ryanbahniuk/babel-plugin-dataset.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ryanbahniuk/babel-plugin-dataset/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ryanbahniuk/babel-plugin-dataset/blob/master/LICENSE"
+    }
+  ],
+  "main": "src/index.js",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  }
+}
